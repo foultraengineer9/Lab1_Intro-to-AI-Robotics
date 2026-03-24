@@ -5,9 +5,9 @@ Description and Purpose
     -This repository contains a ROS 2 package designed to process simulated distance sensor data and trigger safety alerts using a custom service interface. It was developed using strict Test-Driven Development (TDD) principle to ensure 100% test coverage for node initialization.
 
 The system consists of three distinct nodes:
-  **Sensor Node:** Simulates and publishes distance readings (in meters) to the `distance` topic.
-  **Processing Node:** Subscribes to the raw distance readings, converts them into centimeters, and publishes the processed data to the `distance_cm` topic.
-  **Service Node:** Hosts a custom service (`SetThreshold.srv`) to dynamically set a minimum safe distance. It subscribes to the sensor readings and logs a warning if the distance falls below the safety threshold.
+*  **Sensor Node:** Simulates and publishes distance readings (in meters) to the `distance` topic.
+*  **Processing Node:** Subscribes to the raw distance readings, converts them into centimeters, and publishes the processed data to the `distance_cm` topic.
+*  **Service Node:** Hosts a custom service (`SetThreshold.srv`) to dynamically set a minimum safe distance. It subscribes to the sensor readings and logs a warning if the distance falls below the safety threshold.
 
 ### Repository Structure
 *   `distance_sensor_system`: Contains the Python source code, tests, configuration parameters, and launch files.
