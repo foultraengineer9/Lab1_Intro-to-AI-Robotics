@@ -2,7 +2,7 @@
 
 # Distance Sensor System - CS 353 Lab 1
 Description and Purpose
-    -This repository contains a ROS 2 package designed to process simulated distance sensor data and trigger safety alerts using a custom service interface. It was developed using strict Test-Driven Development (TDD) principle to ensure 100% test coverage for node initialization.
+    -This repository contains a ROS2 package designed to process simulated distance sensor data and trigger safety alerts using a custom service interface. It was developed using strict Test-Driven Development (TDD) principle to ensure 100% test coverage for node initialization.
 
 The system consists of three distinct nodes:
 *  **Sensor Node:** Simulates and publishes distance readings (in meters) to the `distance` topic.
