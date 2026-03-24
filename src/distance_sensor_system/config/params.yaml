@@ -1,0 +1,14 @@
+sensor_node:
+  ros__parameters:
+    publishing_frequency: 1.0
+    sensor_range_limit: 10.0
+    topic_name: "distance"
+
+processing_node:
+  ros__parameters:
+    input_topic: "distance"
+    output_topic: "distance_cm"
+
+service_node:
+  ros__parameters:
+    safety_threshold: 1.0
